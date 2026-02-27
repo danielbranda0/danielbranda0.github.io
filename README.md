@@ -1,86 +1,121 @@
-# Developer Portfolio Template 🚀
+# 👋 Olá, eu sou Daniel Brandão
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Node.js](https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+<a href="https://www.linkedin.com/in/daniel-brand%C3%A3o-b42510122/">
+  <img align="left"
+       src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"
+       alt="Daniel Brandão | LinkedIn"/>
+</a>
 
-## What is this?
+<a href="https://wa.me/5571991336685">
+  <img align="left"
+       src="https://img.shields.io/badge/WhatsApp-(71)%209%209133--6685-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"
+       alt="WhatsApp | Daniel Brandão"/>
+</a>
 
-This simple portfolio template is designed to showcase your past projects, career history, skill sets, and more.
+<br clear="left"/>
 
-View the [Demo](https://yujisatojr.github.io/react-portfolio-template/).
+<br>
 
-**This template is free to use, and no attribution is required.** You can fork or download this repository to customize it for your own use. Please don't forget to leave a ⭐ if you like this portfolio!
+🎯 **Analista de Dados | BI | Growth | Engenharia aplicada a dados**
 
-![screenshot](./src/assets//images/screenshot.png)
+Sou engenheiro civil formado pela **Universidade Federal da Bahia (UFBA)**, com atuação focada em **dados, automação e Business Intelligence** aplicados à gestão empresarial. Atualmente trabalho como **Head de Growth e Dados** na **Construtora Mega Realty**, onde lidero toda a estrutura de dados, sistemas e análises estratégicas da empresa.
 
-## Features
+Meu foco é **transformar dados complexos em decisões claras**, acessíveis e acionáveis para gestores, diretores e equipes operacionais.
 
-✅ Open source (free to use, no attribution required)  
-✅ Responsive design & mobile-friendly  
-✅ Supports both dark and light modes  
-✅ Highly customizable multi-component layout  
-✅ Built with modern technologies (React, TypeScript, JavaScript, and SCSS)  
+---
 
-## Quick Setup
+## 🧠 O que você vai encontrar neste GitHub
 
-1. Ensure you have [Node.js](https://nodejs.org/) installed. Check your installation by running:
+Este GitHub funciona como **portfólio profissional**, com projetos voltados para:
 
-    ```bash
-    node -v
-    ```
+- 📊 **Dashboards em Power BI** (financeiro, obras, comercial, indicadores estratégicos)
+- 📈 **Planilhas avançadas em Excel** (automação, controle financeiro, análises gerenciais)
+- 🧩 **Modelagem de dados e DAX**
+- 🔄 **Automação de processos** com Power Query, VBA e integrações com ERP
+- 📑 Projetos pensados para **leigos técnicos** (gestores, líderes, operacional, etc)
 
-2. In the project directory, install dependencies:
+👉 **Este não é um repositório colaborativo ou técnico-acadêmico**.  
+É um espaço de demonstração prática de como dados geram valor real no negócio.
 
-    ```bash
-    npm install
-    ```
+---
 
-3. Start the development server:
+## 🛠️ Principais habilidades
 
-    ```bash
-    npm start
-    ```
+### 📊 Dados & BI
+![Power BI](https://img.shields.io/badge/Power%20BI-advanced-F2C811?style=for-the-badge&logo=powerbi)
+![Excel](https://img.shields.io/badge/Excel-advanced-217346?style=for-the-badge&logo=microsoft-excel)
+![DAX](https://img.shields.io/badge/DAX-advanced-5E5E5E?style=for-the-badge)
+![Power Query](https://img.shields.io/badge/Power%20Query-advanced-742774?style=for-the-badge)
+![VBA](https://img.shields.io/badge/VBA-intermediate-867DB1?style=for-the-badge)
+![SQL](https://img.shields.io/badge/SQL-intermediate-4479A1?style=for-the-badge&logo=mysql)
 
-4. Open [http://localhost:3000](http://localhost:3000) to view the app in the browser.
+### ⚙️ Sistemas & Automação
+- ERP (Mega Senior, Sienge)
+- Modelagem de banco de dados
+- Integração entre sistemas
+- Power Apps
+- SharePoint & OneDrive
 
-5. Customize the template by navigating to the `/src/components` directory. Modify texts, pictures, and other information as needed.
+### 📣 Growth & Marketing
+- CRM (HubSpot, Salesforce)
+- Outbound e Inbound Marketing
+- Google Ads, Facebook Ads
+- Google Analytics
+- Apresentações executivas (Canva, PowerPoint)
 
-The page will reload if you make edits, and you will see any lint errors in the console.
+---
 
-If you are interested in creating a mockup image like the ones from the personal projects section, I recommend [Genmoo](https://gemoo.com/tools/browser-mockup-generator/). This website lets you generate sleek looking browser mockups for free.
+## 💼 Experiência profissional (resumo)
 
-## Deployment
+**Head de Growth e Dados — Construtora Mega Realty (2021 – atual)**  
+- Estruturação completa da área de dados e BI  
+- Criação de dashboards estratégicos para diretoria  
+- Automação de processos financeiros, técnicos, comerciais e operacionais  
+- Integração de ERP, bancos de dados e sistemas internos  
+- Suporte direto à tomada de decisão executiva  
 
-You can choose your preferred service (e.g., [Netlify](https://www.netlify.com/), [Render](https://render.com/), [Heroku](https://www.heroku.com/)) for deployment. One of the easiest ways to host this portfolio is using GitHub Pages. Follow the instructions below for a production deploy.
+**Analista de Growth e Dados e Orçamentista — Mega Realty (2018 – 2021)**  
+- BI financeiro e de obras  
+- Implantação de ERPs  
+- Planejamento e controle de obras  
+- Marketing e geração de leads B2B  
 
-1. **Set Up GitHub Repository**
+---
 
-    Create a new repository on GitHub for your portfolio app.
+## 🎓 Formação & cursos
 
-2. **Configure `package.json`**
+🎓 **Engenharia Civil — UFBA**
 
-    Edit the following properties in your `package.json` file:
+📘 **Data Analyst Bootcamp** – Python, SQL, BI, ETL, AWS, Gen AI  
+📘 **PL-300 – Power BI Data Analyst**  
+📘 **MySQL Bootcamp** – SQL do básico ao avançado  
+📘 **Marketing Digital**  
+📘 **Planejamento e Orçamento de Obras (MS Project)**  
 
-    ```json
-    {
-        "homepage": "https://yourusername.github.io/your-repo-name",
-        "scripts": {
-            "predeploy": "npm run build",
-            "deploy": "gh-pages -d build",
-            ...
-        }
-    }
-    ```
+---
 
-    Replace `yourusername` with your GitHub username and `your-repo-name` with the name of your GitHub repository.
+## 🌐 Contato
 
-3. **Deploy to GitHub Pages**
+📍 Lauro de Freitas – BA  
+📧 **Email:** danielbrandao92@gmail.com  
+💼 **LinkedIn:** https://www.linkedin.com/in/daniel-brandão-b42510122/
 
-    Run the following command to deploy your app:
+<a href="https://www.linkedin.com/in/daniel-brand%C3%A3o-b42510122/">
+  <img align="left"
+       src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"
+       alt="Daniel Brandão | LinkedIn"/>
+</a>
 
-    ```bash
-    npm run deploy
-    ```
+<a href="https://wa.me/5571991336685">
+  <img align="left"
+       src="https://img.shields.io/badge/WhatsApp-(71)%209%209133--6685-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"
+       alt="WhatsApp | Daniel Brandão"/>
+</a>
 
-4. **Access Your Deployed App**
+<br clear="left"/>
 
-    After successfully deploying, you can access your app at `https://yourusername.github.io/your-repo-name`.
+
+---
+
+⭐ Fique à vontade para explorar os repositórios fixados abaixo  
+Eles representam projetos reais, aplicados e orientados a resultado.
