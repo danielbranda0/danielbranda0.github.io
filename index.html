@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Daniel Brandão - Analista de Dados | BI | Growth | Engenharia Civil aplicada a dados. Portfólio profissional com projetos em Power BI, Excel, SQL e automação.">
+    <meta name="keywords" content="Daniel Brandão, Analista de Dados, Business Intelligence, Power BI, Excel, SQL, DAX, Growth, Engenharia Civil">
+    <meta name="author" content="Daniel Brandão">
+    
+    <title>Daniel Brandão | Analista de Dados & BI</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">📊</span>
+                <span class="logo-text">Daniel Brandão</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Início</a></li>
+                <li><a href="#about" class="nav-link">Sobre</a></li>
+                <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfólio</a></li>
+                <li><a href="#experience" class="nav-link">Experiência</a></li>
+                <li><a href="#contact" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="hero-greeting">Olá, eu sou</span>
+                    <h1 class="hero-title">Daniel Brandão</h1>
+                    <p class="hero-subtitle">
+                        <span class="typing-text">Analista de Dados | BI | Growth</span>
+                    </p>
+                    <p class="hero-description">
+                        Engenheiro Civil transformando dados complexos em decisões claras e acionáveis.
+                        Especialista em Power BI, Excel, SQL e automação de processos.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="btn btn-primary">
+                            <i class="fas fa-briefcase"></i> Ver Portfólio
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-envelope"></i> Entrar em Contato
+                        </a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="https://www.linkedin.com/in/daniel-brandão-b42510122/" target="_blank" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/danielbranda0" target="_blank" class="social-link" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://wa.me/5571991336685" target="_blank" class="social-link" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="mailto:danielbrandao92@gmail.com" class="social-link" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <div class="image-placeholder">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <a href="#about" class="scroll-link">
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Conheça mais</span>
+                <h2 class="section-title">Sobre Mim</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        Sou <strong>Engenheiro Civil</strong> formado pela <strong>Universidade Federal da Bahia (UFBA)</strong>, 
+                        com atuação focada em <strong>dados, automação e Business Intelligence</strong> aplicados à gestão empresarial.
+                    </p>
+                    <p>
+                        Atualmente trabalho como <strong>Head de Growth e Dados</strong> na <strong>Construtora Mega Realty</strong>, 
+                        onde lidero toda a estrutura de dados, sistemas e análises estratégicas da empresa.
+                    </p>
+                    <p class="about-highlight">
+                        <i class="fas fa-bullseye"></i>
+                        Meu foco é transformar dados complexos em decisões claras, acessíveis e acionáveis 
+                        para gestores, diretores e equipes operacionais.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">6+</span>
+                            <span class="stat-label">Anos de Experiência</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Dashboards Criados</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Orientado a Resultados</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-highlights">
+                    <div class="highlight-card">
+                        <div class="highlight-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Business Intelligence</h3>
+                        <p>Dashboards estratégicos em Power BI com foco em KPIs financeiros, comerciais e operacionais.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3>Automação de Processos</h3>
+                        <p>Integração de sistemas, ETL, Power Query e VBA para eliminar trabalho manual repetitivo.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Growth & Marketing</h3>
+                        <p>Gestão de CRM, campanhas digitais e análise de dados para geração de leads B2B.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Competências Técnicas</span>
+                <h2 class="section-title">Principais Habilidades</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="skills-grid">
+                <!-- Data & BI -->
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-chart-bar"></i> Dados & BI
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Power BI</span>
+                                <span class="skill-level">Avançado</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Excel</span>
+                                <span class="skill-level">Avançado</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">DAX</span>
+                                <span class="skill-level">Avançado</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Power Query</span>
+                                <span class="skill-level">Avançado</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">SQL</span>
+                                <span class="skill-level">Intermediário</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">VBA</span>
+                                <span class="skill-level">Intermediário</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sistemas & Automação -->
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-cog"></i> Sistemas & Automação
+                    </h3>
+                    <div class="tech-badges">
+                        <span class="tech-badge">ERP Mega Senior</span>
+                        <span class="tech-badge">Sienge</span>
+                        <span class="tech-badge">Power Apps</span>
+                        <span class="tech-badge">SharePoint</span>
+                        <span class="tech-badge">OneDrive</span>
+                        <span class="tech-badge">Modelagem de Dados</span>
+                        <span class="tech-badge">Integração de Sistemas</span>
+                        <span class="tech-badge">ETL</span>
+                    </div>
+                </div>
+
+                <!-- Marketing & Growth -->
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-bullhorn"></i> Marketing & Growth
+                    </h3>
+                    <div class="tech-badges">
+                        <span class="tech-badge">HubSpot</span>
+                        <span class="tech-badge">Salesforce</span>
+                        <span class="tech-badge">Google Ads</span>
+                        <span class="tech-badge">Facebook Ads</span>
+                        <span class="tech-badge">Google Analytics</span>
+                        <span class="tech-badge">Outbound/Inbound</span>
+                        <span class="tech-badge">CRM</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Trabalhos Realizados</span>
+                <h2 class="section-title">Portfólio de Projetos</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">
+                    Projetos reais aplicados na gestão empresarial, com foco em eficiência, 
+                    tomada de decisão e resultados mensuráveis.
+                </p>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="portfolio-card">
+                    <div class="card-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                        <div class="card-overlay">
+                            <a href="#" class="overlay-btn">
+                                <i class="fas fa-eye"></i> Ver Detalhes
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-tags">
+                            <span class="tag">Power BI</span>
+                            <span class="tag">DAX</span>
+                        </div>
+                        <h3 class="card-title">Dashboard Financeiro Executivo</h3>
+                        <p class="card-description">
+                            Painel estratégico para diretoria com KPIs de faturamento, custos, 
+                            margem e fluxo de caixa em tempo real.
+                        </p>
+                        <div class="card-footer">
+                            <span class="card-category">
+                                <i class="fas fa-folder"></i> Business Intelligence
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="portfolio-card">
+                    <div class="card-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-hard-hat"></i>
+                        </div>
+                        <div class="card-overlay">
+                            <a href="#" class="overlay-btn">
+                                <i class="fas fa-eye"></i> Ver Detalhes
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-tags">
+                            <span class="tag">Power BI</span>
+                            <span class="tag">Power Query</span>
+                        </div>
+                        <h3 class="card-title">Dashboard de Controle de Obras</h3>
+                        <p class="card-description">
+                            Sistema integrado para acompanhamento de cronograma físico-financeiro, 
+                            custos por unidade e desvios orçamentários.
+                        </p>
+                        <div class="card-footer">
+                            <span class="card-category">
+                                <i class="fas fa-folder"></i> Engenharia & Dados
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="portfolio-card">
+                    <div class="card-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <div class="card-overlay">
+                            <a href="#" class="overlay-btn">
+                                <i class="fas fa-eye"></i> Ver Detalhes
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-tags">
+                            <span class="tag">Excel</span>
+                            <span class="tag">VBA</span>
+                        </div>
+                        <h3 class="card-title">Planilha de Controle Comercial</h3>
+                        <p class="card-description">
+                            Automação completa de funil de vendas, indicadores de performance 
+                            e relatórios gerenciais com atualização automática.
+                        </p>
+                        <div class="card-footer">
+                            <span class="card-category">
+                                <i class="fas fa-folder"></i> Automação
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="portfolio-card">
+                    <div class="card-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="card-overlay">
+                            <a href="#" class="overlay-btn">
+                                <i class="fas fa-eye"></i> Ver Detalhes
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-tags">
+                            <span class="tag">SQL</span>
+                            <span class="tag">ETL</span>
+                        </div>
+                        <h3 class="card-title">Integração ERP + Power BI</h3>
+                        <p class="card-description">
+                            Pipeline de dados automatizado extraindo informações do ERP Sienge 
+                            para dashboards gerenciais com refresh automático.
+                        </p>
+                        <div class="card-footer">
+                            <span class="card-category">
+                                <i class="fas fa-folder"></i> Integração de Sistemas
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="portfolio-card">
+                    <div class="card-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <div class="card-overlay">
+                            <a href="#" class="overlay-btn">
+                                <i class="fas fa-eye"></i> Ver Detalhes
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-tags">
+                            <span class="tag">HubSpot</span>
+                            <span class="tag">Google Ads</span>
+                        </div>
+                        <h3 class="card-title">Automação de Marketing B2B</h3>
+                        <p class="card-description">
+                            Estruturação de CRM, campanhas digitais e dashboards de performance 
+                            para geração e qualificação de leads.
+                        </p>
+                        <div class="card-footer">
+                            <span class="card-category">
+                                <i class="fas fa-folder"></i> Growth Marketing
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="portfolio-card">
+                    <div class="card-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <div class="card-overlay">
+                            <a href="#" class="overlay-btn">
+                                <i class="fas fa-eye"></i> Ver Detalhes
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-tags">
+                            <span class="tag">Excel</span>
+                            <span class="tag">Power Query</span>
+                        </div>
+                        <h3 class="card-title">Modelo de Análise de Viabilidade</h3>
+                        <p class="card-description">
+                            Planilha avançada para análise de viabilidade econômica de empreendimentos, 
+                            com cenários, sensibilidade e indicadores financeiros.
+                        </p>
+                        <div class="card-footer">
+                            <span class="card-category">
+                                <i class="fas fa-folder"></i> Análise Financeira
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-cta">
+                <a href="https://github.com/danielbranda0" target="_blank" class="btn btn-primary">
+                    <i class="fab fa-github"></i> Ver Todos os Projetos no GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Trajetória Profissional</span>
+                <h2 class="section-title">Experiência</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="timeline">
+                <!-- Experience 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2021 - Atual</div>
+                        <h3 class="timeline-title">Head de Growth e Dados</h3>
+                        <h4 class="timeline-company">Construtora Mega Realty</h4>
+                        <ul class="timeline-description">
+                            <li>Estruturação completa da área de dados e Business Intelligence</li>
+                            <li>Criação de dashboards estratégicos para diretoria (financeiro, obras, comercial)</li>
+                            <li>Automação de processos internos e integração entre sistemas (ERP, CRM, planilhas)</li>
+                            <li>Gestão de marketing digital, CRM e geração de leads B2B</li>
+                            <li>Suporte direto à tomada de decisão executiva baseada em dados</li>
+                        </ul>
+                        <div class="timeline-tech">
+                            <span>Power BI</span>
+                            <span>Excel</span>
+                            <span>DAX</span>
+                            <span>SQL</span>
+                            <span>HubSpot</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2018 - 2021</div>
+                        <h3 class="timeline-title">Analista de Growth e Orçamentista</h3>
+                        <h4 class="timeline-company">Construtora Mega Realty</h4>
+                        <ul class="timeline-description">
+                            <li>Criação de BI financeiro e de obras do zero</li>
+                            <li>Implantação de ERP (Mega Senior) e estruturação de dados</li>
+                            <li>Controle financeiro e planejamento de obras</li>
+                            <li>Desenvolvimento de estratégias de marketing digital</li>
+                        </ul>
+                        <div class="timeline-tech">
+                            <span>Power BI</span>
+                            <span>Excel</span>
+                            <span>ERP</span>
+                            <span>Google Ads</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2017 - 2018</div>
+                        <h3 class="timeline-title">Estagiário de Engenharia Civil</h3>
+                        <h4 class="timeline-company">BDG Construtora</h4>
+                        <ul class="timeline-description">
+                            <li>Acompanhamento de obras e controle de execução</li>
+                            <li>Elaboração de planilhas de controle e relatórios técnicos</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience 4 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2013 - 2016</div>
+                        <h3 class="timeline-title">Início da Carreira</h3>
+                        <h4 class="timeline-company">Diversos Estágios em Engenharia</h4>
+                        <ul class="timeline-description">
+                            <li>2MS Engenharia (2016)</li>
+                            <li>Alberto Leal Engenharia Estrutural (2015-2016)</li>
+                            <li>Construquali Engenharia - Analista de Suprimentos (2013-2014)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Formação Acadêmica e Cursos</span>
+                <h2 class="section-title">Educação</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="education-grid">
+                <!-- Formação -->
+                <div class="education-card primary">
+                    <div class="edu-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Engenharia Civil</h3>
+                    <h4>Universidade Federal da Bahia (UFBA)</h4>
+                    <p class="edu-status">Graduação Completa</p>
+                </div>
+
+                <!-- Cursos -->
+                <div class="education-card">
+                    <div class="edu-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Data Analyst Bootcamp</h3>
+                    <p>Python, SQL, BI, ETL, AWS, Gen AI</p>
+                    <span class="edu-year">2024</span>
+                </div>
+
+                <div class="education-card">
+                    <div class="edu-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Power BI Data Analyst (PL-300)</h3>
+                    <p>Certificação oficial Microsoft</p>
+                    <span class="edu-year">2023</span>
+                </div>
+
+                <div class="education-card">
+                    <div class="edu-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>MySQL Bootcamp</h3>
+                    <p>SQL do básico ao avançado</p>
+                    <span class="edu-year">2023</span>
+                </div>
+
+                <div class="education-card">
+                    <div class="edu-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Marketing Digital</h3>
+                    <p>Estratégias e ferramentas de marketing</p>
+                    <span class="edu-year">2022</span>
+                </div>
+
+                <div class="education-card">
+                    <div class="edu-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Planejamento e Orçamento de Obras</h3>
+                    <p>MS Project e gestão de projetos</p>
+                    <span class="edu-year">2020</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Entre em Contato</span>
+                <h2 class="section-title">Vamos Conversar?</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">
+                    Estou sempre aberto a novos projetos, oportunidades e colaborações. 
+                    Entre em contato através dos canais abaixo!
+                </p>
+            </div>
+            <div class="contact-grid">
+                <!-- Contact Cards -->
+                <a href="mailto:danielbrandao92@gmail.com" class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p>danielbrandao92@gmail.com</p>
+                </a>
+
+                <a href="https://wa.me/5571991336685" target="_blank" class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <h3>WhatsApp</h3>
+                    <p>(71) 9 9133-6685</p>
+                </a>
+
+                <a href="https://www.linkedin.com/in/daniel-brandão-b42510122/" target="_blank" class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+                    <h3>LinkedIn</h3>
+                    <p>daniel-brandão</p>
+                </a>
+
+                <a href="https://github.com/danielbranda0" target="_blank" class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h3>GitHub</h3>
+                    <p>danielbranda0</p>
+                </a>
+            </div>
+            <div class="contact-location">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Lauro de Freitas - BA, Brasil</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-icon">📊</span>
+                    <span class="logo-text">Daniel Brandão</span>
+                </div>
+                <p class="footer-text">
+                    Transformando dados em decisões estratégicas desde 2018.
+                </p>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/daniel-brandão-b42510122/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/danielbranda0" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://wa.me/5571991336685" target="_blank" aria-label="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="mailto:danielbrandao92@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+                <p class="footer-copyright">
+                    © 2025 Daniel Brandão. Todos os direitos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
